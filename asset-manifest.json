@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/trending-anime/static/css/main.1f317afd.css",
+    "main.js": "/trending-anime/static/js/main.5f31c46a.js",
+    "index.html": "/trending-anime/index.html",
+    "main.1f317afd.css.map": "/trending-anime/static/css/main.1f317afd.css.map",
+    "main.5f31c46a.js.map": "/trending-anime/static/js/main.5f31c46a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f317afd.css",
+    "static/js/main.5f31c46a.js"
+  ]
+}
