@@ -5,6 +5,7 @@
 body {
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
+
 }
 
 .span--bold {
@@ -13,7 +14,6 @@ body {
 
 
 /* ----nav----- */
-
  
 .nav-container {
     display:flex;
@@ -22,12 +22,7 @@ body {
     align-items: center;
     border-bottom: 1px solid rgb(148, 146, 146);
     box-shadow: 0 8px 6px -6px rgb(114, 112, 112);
-    position:fixed;
-    width: 100%;
-    background-color: white;
-    /* margin-top: 200px; */
 }
-
 
 .nav-logo {
     max-height: 100px;
@@ -45,14 +40,12 @@ body {
 }
 
 /* ----card----- */
-.anime--list {
-    padding-top: 100px;
-}
-
-.m--wrapper{
-    
+.m--wrapper {
     display:flex;
-    
+    /* flex-wrap: wrap; */
+    /* overflow-wrap: break-word; */
+    /* padding-left: 100px;
+    padding-right: 100px; */
     
 }
 .anime--card--wrapper {
@@ -69,19 +62,6 @@ body {
     box-shadow: 5px 10px 10px rgb(114, 112, 112);
     /* overflow-wrap: break-word; */
 }
-
-@media all and (max-width: 400px) {
-    .anime--card--wrapper {
-      flex-wrap: wrap;
-    }
-    .anime--info--container {
-        flex-wrap: wrap;
-      }
-
-      .info--wrapper {
-        flex-wrap: wrap;
-      }
-  }
 
 .title--div {
     display:flex;
@@ -217,8 +197,6 @@ a:visited{
 /* ----footer---- */
 
 .footer {
-    /* position: relative;
-    top:200px; */
     margin-top: 40px;
     background-color: rgb(88, 87, 87);
     display:flex;
