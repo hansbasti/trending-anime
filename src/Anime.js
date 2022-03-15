@@ -17,7 +17,7 @@ export default function Anime (props){
         <div className="m--wrapper">
             <div className="anime--card--wrapper" style={styles} onClick={()=>props.toggleFunction(props.id)}>
                 <div className="anime--info--container">
-                    <img className="anime--image" src= {props.attributes.coverImage.original} />
+                    <img className="anime--image" src= {props.attributes.posterImage.original} />
                     <div className="anime--info">
                         <div className="title--div">
                             <h1 style={textStyle}>{props.attributes.titles.en}</h1>
